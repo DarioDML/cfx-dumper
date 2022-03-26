@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{3e978896-098c-4da3-a88f-75a6c7f672fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\core">
+      <UniqueIdentifier>{3715eb56-55d5-47f1-ab1d-980414be7e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\sdk">
+      <UniqueIdentifier>{ea094e9c-f316-4443-9047-6b2263257424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\core">
+      <UniqueIdentifier>{73f92954-a5d4-4669-ac54-49c2a9513b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\utilities">
+      <UniqueIdentifier>{79d164c3-bcbe-41a6-90c1-fa047d3c2e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\utilities">
+      <UniqueIdentifier>{ca8db965-5140-48dd-bc2d-1825281fdaaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\utilities\memory">
+      <UniqueIdentifier>{a3edd0e4-5436-4242-a9a4-fd9a588016f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\utilities\memory">
+      <UniqueIdentifier>{32d09081-c05c-4668-b92e-9621742869ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\stream.cpp">
+      <Filter>includes\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="core\memory.cpp">
+      <Filter>sources\core</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\memory\module.cpp">
+      <Filter>sources\utilities\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\memory\pattern.cpp">
+      <Filter>sources\utilities\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\memory\pattern_batch.cpp">
+      <Filter>sources\utilities\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\memory\range.cpp">
+      <Filter>sources\utilities\memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\manager.hpp">
+      <Filter>includes\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\stream.hpp">
+      <Filter>includes\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\fiDevice.hpp">
+      <Filter>includes\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory.hpp">
+      <Filter>includes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\memory\fwddec.hpp">
+      <Filter>includes\utilities\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\memory\all.hpp">
+      <Filter>includes\utilities\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\memory\handle.hpp">
+      <Filter>includes\utilities\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\memory\module.hpp">
+      <Filter>includes\utilities\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\memory\pattern.hpp">
+      <Filter>includes\utilities\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\memory\pattern_batch.hpp">
+      <Filter>includes\utilities\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\memory\range.hpp">
+      <Filter>includes\utilities\memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
